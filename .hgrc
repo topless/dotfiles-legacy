@@ -1,13 +1,3 @@
 [ui]
 username = Panayiotis Lipiridis <lipiridis@gmail.com>
 ssh = ssh -C
-
-[hostfingerprints]
-lim.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
-wearezeta.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
-
-[auth]
-lim.prefix = https://lim.kilnhg.com
-lim.username = lipiridis@gmail.com
-wearezeta.prefix = https://wearezeta.kilnhg.com
-wearezeta.username = lipis@wearezeta.com
