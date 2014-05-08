@@ -40,7 +40,6 @@ install ack
 #install exiv2
 install foremost
 install git
-install mercurial
 install imagemagick --with-webp
 install lynx
 install nmap
@@ -58,6 +57,9 @@ install xpdf
 install zopfli
 
 install homebrew/versions/lua52
+
+# Lipis was here
+install mercurial
 
 # Remove outdated versions from the cellar
 cleanup
