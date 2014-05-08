@@ -13,8 +13,6 @@ alias upload='cd ~/work/lipis/gae-init/hg/upload'
 alias mygae='cd ~/work/lipis/gae-init/git/lipis'
 alias dev='cd ~/work/lipis/gae-init/hg/dev/init'
 
-alias bs='cd ~/work/lipis/bootstrap'
-
 alias dodonegone='cd ~/work/lipis/dodonegone'
 alias enigma='cd ~/work/lipis/enigma'
 alias lessfolio='cd ~/work/lipis/lessfolio'
