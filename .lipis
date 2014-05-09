@@ -18,6 +18,7 @@ alias lipis='cd ~/work/lipis'
 alias phonebook='cd ~/work/lipis/phonebook'
 alias privent='cd ~/work/lipis/privent'
 alias pss='cd ~/work/lipis/pss'
+alias dot='cd ~/work/lipis/dotfiles'
 
 alias waz='cd ~/work/wearezeta'
 alias virgin='cd ~/work/wearezeta/virgin'
