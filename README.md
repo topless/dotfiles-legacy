@@ -1,4 +1,7 @@
-# Mathias’s dotfiles
+# Lipis' dotfiles
+
+This project is mostly for my own needs, if you are about to fork something,
+fork [Mathias's dotfiles](https://github.com/mathiasbynens/dotfiles/) instead.
 
 ## Installation
 
