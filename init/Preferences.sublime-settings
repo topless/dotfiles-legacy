@@ -15,12 +15,14 @@
 		"._*",
 		"Thumbs.db",
 		".Spotlight-V100",
-		".Trashes"
+		".Trashes",
+    "_SpecRunner.html"
 	],
 	"folder_exclude_patterns":
 	[
 		".git",
 		".hg",
+    ".grunt",
 		"node_modules",
 		"static/min",
 		"static/dst"
