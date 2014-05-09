@@ -20,10 +20,10 @@ alias privent='cd ~/work/lipis/privent'
 alias pss='cd ~/work/lipis/pss'
 alias dot='cd ~/work/lipis/dotfiles'
 
-alias waz='cd ~/work/wearezeta'
-alias virgin='cd ~/work/wearezeta/virgin'
-alias pravda='cd ~/work/wearezeta/pravda'
-alias mars='cd ~/work/wearezeta/mars'
+alias zeta='cd ~/work/zeta'
+alias virgin='cd ~/work/zeta/virgin'
+alias pravda='cd ~/work/zeta/pravda'
+alias mars='cd ~/work/zeta/mars'
 
 # The next line updates PATH for the Google Cloud SDK.
 source /Users/lipis/google-cloud-sdk/path.bash.inc
