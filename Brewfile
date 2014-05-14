@@ -3,6 +3,7 @@
 
 # Taps
 tap homebrew/python
+tap homebrew/homebrew-games
 
 # Make sure we’re using the latest Homebrew
 update
@@ -46,6 +47,11 @@ install pillow
 install python
 install tree
 install webkit2png
+
+# Install games
+install xboard
+install gnu-chess
+
 
 # Remove outdated versions from the cellar
 cleanup
