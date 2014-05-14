@@ -6,3 +6,4 @@ export PATH=/usr/local/share/npm/bin:$PATH
 export PATH=$PATH:~/Library/Python/2.7/bin
 
 export GEM_HOME="$HOME/.gem"
+export PATH="$GEM_HOME/bin/:$PATH"
