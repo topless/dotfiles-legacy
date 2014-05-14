@@ -4,3 +4,5 @@ export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/share/npm/bin:$PATH
 export PATH=$PATH:~/Library/Python/2.7/bin
+
+export GEM_HOME="$HOME/.gem"
