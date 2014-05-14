@@ -38,7 +38,6 @@ install homebrew/php/php55 --with-gmp
 # Install other useful binaries
 install ack
 install git
-install hashpump
 install imagemagick --with-webp
 install mercurial
 install nmap
@@ -46,7 +45,6 @@ install node # This installs `npm` too using the recommended installation method
 install pillow
 install python
 install tree
-install ucspi-tcp # `tcpserver` et al.
 install webkit2png
 
 # Remove outdated versions from the cellar
