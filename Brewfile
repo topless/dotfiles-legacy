@@ -20,7 +20,9 @@ install findutils
 # Install GNU `sed`, overwriting the built-in `sed`
 install gnu-sed --default-names
 # Install Bash 4
+# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 install bash
+install bash-completion
 
 # Install wget with IRI support
 install wget --enable-iri
@@ -36,13 +38,15 @@ install homebrew/php/php55 --with-gmp
 # Install other useful binaries
 install ack
 install git
+install hashpump
 install imagemagick --with-webp
 install mercurial
 install nmap
-install node
+install node # This installs `npm` too using the recommended installation method
 install pillow
 install python
 install tree
+install ucspi-tcp # `tcpserver` et al.
 install webkit2png
 
 # Remove outdated versions from the cellar
