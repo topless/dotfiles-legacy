@@ -22,3 +22,4 @@ cask install sublime-text3 2> /dev/null
 cask install the-unarchiver 2> /dev/null
 cask install utorrent 2> /dev/null
 cask install vlc 2> /dev/null
+cask install xquartz> /dev/null
