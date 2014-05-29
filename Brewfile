@@ -38,6 +38,8 @@ install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries
 install ack
+install bfg
+install exiv2
 install git
 install imagemagick --with-webp
 install mercurial
