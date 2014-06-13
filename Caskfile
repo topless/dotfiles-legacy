@@ -18,7 +18,7 @@ cask install musicbrainz-picard.rb 2> /dev/null
 cask install opera 2> /dev/null
 cask install picasa 2> /dev/null
 cask install skype 2> /dev/null
-cask install sublime-text3 2> /dev/null
+cask install sublime-text-dev 2> /dev/null
 cask install the-unarchiver 2> /dev/null
 cask install utorrent 2> /dev/null
 cask install vlc 2> /dev/null
