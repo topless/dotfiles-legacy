@@ -12,7 +12,6 @@ cask install google-chrome-dev 2> /dev/null
 cask install imagealpha 2> /dev/null
 cask install imageoptim 2> /dev/null
 cask install iterm2 2> /dev/null
-cask install mou 2> /dev/null
 cask install music-manager.rb 2> /dev/null
 cask install musicbrainz-picard.rb 2> /dev/null
 cask install opera 2> /dev/null
