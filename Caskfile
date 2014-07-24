@@ -7,6 +7,7 @@ tap caskroom/versions
 cask install atom 2> /dev/null
 cask install dropbox 2> /dev/null
 cask install firefox 2> /dev/null
+cask install firefox-beta 2> /dev/null
 cask install google-chrome-canary 2> /dev/null
 cask install google-chrome-dev 2> /dev/null
 cask install imagealpha 2> /dev/null
@@ -18,8 +19,8 @@ cask install opera 2> /dev/null
 cask install picasa 2> /dev/null
 cask install skype 2> /dev/null
 cask install sublime-text-dev 2> /dev/null
+cask install teamviewer> /dev/null
 cask install the-unarchiver 2> /dev/null
 cask install utorrent 2> /dev/null
 cask install vlc 2> /dev/null
 cask install xquartz> /dev/null
-cask install teamviewer> /dev/null
