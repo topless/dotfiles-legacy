@@ -39,6 +39,7 @@ install ack
 install bfg
 install exiv2
 install git
+install gource
 install imagemagick --with-webp
 install mercurial
 install node # This installs `npm` too using the recommended installation method
