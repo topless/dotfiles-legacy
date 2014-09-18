@@ -38,6 +38,7 @@ install homebrew/php/php55 --with-gmp
 install ack
 install bfg
 install exiv2
+install ffmpeg
 install git
 install gource
 install imagemagick --with-webp
