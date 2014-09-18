@@ -20,7 +20,7 @@ alias privent='cd ~/work/lipis/privent'
 alias pss='cd ~/work/lipis/pss'
 alias dot='cd ~/work/lipis/dotfiles'
 alias skel='cd ~/work/lipis/webapp-skeleton'
-alias paketo='cd ~/work/lipis/paketo
+alias paketo='cd ~/work/lipis/paketo'
 
 alias zeta='cd ~/work/zeta'
 alias virgin='cd ~/work/zeta/virgin'
