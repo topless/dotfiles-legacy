@@ -50,7 +50,6 @@ install tree
 install webkit2png
 
 # Install games
-install xboard
 install gnu-chess
 
 
