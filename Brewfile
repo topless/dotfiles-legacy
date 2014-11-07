@@ -66,6 +66,7 @@ install exiv2
 install ffmpeg
 install git
 install gource
+install gpg
 install imagemagick --with-webp
 install lynx
 install mercurial
