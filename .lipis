@@ -30,6 +30,7 @@ alias mars='cd ~/work/zeta/mars'
 alias team='cd ~/work/zeta/team'
 alias tapas='cd ~/work/zeta/tapas'
 alias bubbles='cd ~/work/zeta/webapp-module-bubbles'
+alias account='cd ~/work/zeta/account'
 
 # The next line updates PATH for the Google Cloud SDK.
 source /Users/lipis/google-cloud-sdk/path.bash.inc
