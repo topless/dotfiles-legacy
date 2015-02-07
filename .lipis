@@ -8,7 +8,7 @@ alias docs='cd ~/work/lipis/gae-init/hg/docs'
 alias gae='cd ~/work/lipis/gae-init/hg/init'
 alias gael='cd ~/work/lipis/gae-init/git/lipis'
 alias pro='cd ~/work/lipis/gae-init/hg/pro'
-alias upload='cd ~/work/lipis/gae-init/hg/upload'
+alias upload='cd ~/work/lipis/gae-init/git/upload'
 alias dev='cd ~/work/lipis/gae-init/hg/dev/init'
 alias phonebook='cd ~/work/lipis/gae-init/hg/phonebook'
 
