@@ -96,13 +96,10 @@ brew install python
 brew install rename
 brew install rhino
 brew install speedtest_cli
+brew install ssh-copy-id
 brew install tree
 brew install webkit2png
 brew install zopfli
-
-# Install Node.js. Note: this installs `npm` too, using the recommended
-# installation method.
-brew install node
 
 # Remove outdated versions from the cellar.
 brew cleanup
