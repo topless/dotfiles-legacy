@@ -1,5 +1,6 @@
 alias clean-orig='find . -name "*.orig" | xargs rm'
 alias deploy='./run.py -m && appcfg.py update main --oauth2'
+alias deploy2='gulp build && appcfg.py update main --oauth2'
 
 alias babel='cd ~/work/lipis/gae-init/git/babel'
 alias debug='cd ~/work/lipis/gae-init/git/debug'
