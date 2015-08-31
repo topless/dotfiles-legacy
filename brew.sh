@@ -104,6 +104,7 @@ brew install speedtest_cli
 brew install ssh-copy-id
 brew install tree
 brew install webkit2png
+brew install wine
 brew install zopfli
 
 # Remove outdated versions from the cellar.
