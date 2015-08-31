@@ -26,14 +26,13 @@ alias salary='cd ~/work/lipis/salary'
 alias skel='cd ~/work/lipis/webapp-skeleton'
 alias sweet='cd ~/work/lipis/bootstrap-sweetalert'
 
-alias zeta='cd ~/work/zeta'
-alias virgin='cd ~/work/zeta/virgin'
-alias pravda='cd ~/work/zeta/pravda'
 alias mars='cd ~/work/zeta/mars'
-alias team='cd ~/work/zeta/team'
+alias pravda='cd ~/work/zeta/pravda'
 alias tapas='cd ~/work/zeta/tapas'
-alias bubbles='cd ~/work/zeta/webapp-module-bubbles'
-alias account='cd ~/work/zeta/account'
+alias team='cd ~/work/zeta/team'
+alias virgin='cd ~/work/zeta/virgin'
+alias wrap='cd ~/work/zeta/mars'
+alias zeta='cd ~/work/zeta'
 
 # The next line updates PATH for the Google Cloud SDK.
 source /Users/lipis/google-cloud-sdk/path.bash.inc
