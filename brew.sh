@@ -90,6 +90,7 @@ brew install git
 brew install git-lfs
 brew install gource
 brew install gpg
+brew install httpie
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
