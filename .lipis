@@ -15,6 +15,7 @@ alias upload='cd ~/work/lipis/gae-init/git/upload'
 
 alias adosej='cd ~/work/lipis/adosej'
 alias amnesia='cd ~/work/lipis/amnesia'
+alias dionysus='cd ~/work/lipis/dionysus'
 alias dodonegone='cd ~/work/lipis/dodonegone'
 alias dot='cd ~/work/lipis/dotfiles'
 alias enigma='cd ~/work/lipis/enigma'
