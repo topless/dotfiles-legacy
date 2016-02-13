@@ -76,6 +76,8 @@
 		fi \
 	}; f"
 
+  dsf = "!git diff --color $@ | diff-so-fancy"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
