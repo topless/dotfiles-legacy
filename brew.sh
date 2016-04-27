@@ -92,6 +92,8 @@ brew install gource
 brew install gpg
 brew install httpie
 brew install imagemagick --with-webp
+brew install libxml2
+brew install libxslt
 brew install lua
 brew install lynx
 brew install mercurial
