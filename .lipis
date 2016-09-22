@@ -4,13 +4,11 @@ alias deploy2='gulp build && appcfg.py update main --oauth2'
 
 alias babel='cd ~/work/lipis/gae-init/git/babel'
 alias debug='cd ~/work/lipis/gae-init/git/debug'
-alias dev='cd ~/work/lipis/gae-init/hg/dev/init'
+alias dev='cd ~/work/lipis/gae-init/git/dev/init'
 alias docs='cd ~/work/lipis/gae-init/git/docs'
 alias gae='cd ~/work/lipis/gae-init/git/init'
 alias gael='cd ~/work/lipis/gae-init/git/lipis'
 alias magic='cd ~/work/lipis/gae-init/git/magic'
-alias phonebook='cd ~/work/lipis/gae-init/hg/phonebook'
-alias pro='cd ~/work/lipis/gae-init/hg/pro'
 alias upload='cd ~/work/lipis/gae-init/git/upload'
 
 alias amnesia='cd ~/work/lipis/amnesia'
@@ -26,12 +24,13 @@ alias salary='cd ~/work/lipis/salary'
 alias skel='cd ~/work/lipis/webapp-skeleton'
 alias sweet='cd ~/work/lipis/bootstrap-sweetalert'
 
+alias account='cd ~/work/zeta/wireapp/wire-account'
 alias mars='cd ~/work/zeta/wireapp/wire-webapp'
+alias taco='cd ~/work/zeta/wireapp/wire-desktop'
 alias tapas='cd ~/work/zeta/tapas'
 alias team='cd ~/work/zeta/team'
-alias taco='cd ~/work/zeta/wireapp/wire-desktop'
-alias zeta='cd ~/work/zeta'
 alias wire='cd ~/work/zeta/wireapp'
+alias zeta='cd ~/work/zeta'
 
 # The next line updates PATH for the Google Cloud SDK.
 source /Users/lipis/google-cloud-sdk/path.bash.inc
