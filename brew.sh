@@ -42,13 +42,11 @@ brew install homebrew/dupes/screen
 
 # Install other useful binaries.
 brew install ack
-brew install bfg
 brew install exiv2
 brew install ffmpeg
 brew install git
 brew install git-lfs
 brew install gource
-brew install httpie
 brew install imagemagick --with-webp
 brew install mercurial
 brew install pv
