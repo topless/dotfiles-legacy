@@ -50,12 +50,10 @@ brew install git-lfs
 brew install gource
 brew install httpie
 brew install imagemagick --with-webp
-brew install lynx
 brew install mercurial
 brew install pv
 brew install python
 brew install speedtest_cli
-brew install testssl
 brew install tree
 brew install webkit2png
 
