@@ -7,3 +7,4 @@ npm install -g npm-check-updates
 npm install -g svgo
 npm install -g trash-cli
 npm install -g ungit
+npm install -g yarnpkg
