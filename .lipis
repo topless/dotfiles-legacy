@@ -1,4 +1,4 @@
-alias clean-orig='find . -name "*.orig" | xargs rm'
+alias killp='killall Python -9'
 
 alias babel='cd ~/work/lipis/gae-init/babel'
 alias debug='cd ~/work/lipis/gae-init/debug'
