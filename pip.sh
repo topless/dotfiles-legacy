@@ -2,6 +2,7 @@
 
 pip install babel
 pip install boto3
+pip install cryptography
 pip install flake8
 pip install flask
 pip install flask-babel
