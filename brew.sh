@@ -54,6 +54,7 @@ brew install python
 brew install speedtest_cli
 brew install tree
 brew install webkit2png
+brew install yarn
 
 # Remove outdated versions from the cellar.
 brew cleanup
