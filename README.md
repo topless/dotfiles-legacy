@@ -14,7 +14,7 @@ fork [Mathias's dotfiles](https://github.com/mathiasbynens/dotfiles/) instead.
 To update, `cd` into your local `dotfiles` repository and then:
 
 ```bash
-source bootstrap.sh
+./bootstrap.sh
 ```
 
 Alternatively, to update while avoiding the confirmation prompt:
