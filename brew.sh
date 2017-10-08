@@ -48,6 +48,7 @@ brew install woff2
 # Install other useful binaries.
 brew install ack
 brew install exiv2
+brew install fd
 brew install ffmpeg
 brew install git
 brew install git-lfs
