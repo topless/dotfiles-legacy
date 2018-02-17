@@ -16,3 +16,5 @@ Thumbs.db
 # Random crap
 npm-debug.log
 .idea/
+
+*.log
