@@ -56,7 +56,6 @@ brew install gource
 brew install imagemagick --with-webp
 brew install mercurial
 brew install pv
-brew install python
 brew install speedtest_cli
 brew install tree
 brew install webkit2png
@@ -66,5 +65,7 @@ brew install yarn
 brew cleanup
 
 # Install python stuff
+brew install python
+brew install pyenv
 brew tap homebrew/python
 brew install pillow

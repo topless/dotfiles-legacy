@@ -1,14 +1,14 @@
 alias killp='killall Python -9'
 
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+# export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 # export ANDROID_HOME=~/Library/Android/sdk
-export ANDROID_SDK_ROOT=~/Library/Android/sdk
-export PATH=$PATH:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/tools/lib/x86_64
+# export ANDROID_SDK_ROOT=~/Library/Android/sdk
+# export PATH=$PATH:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/tools/lib/x86_64
 
-# The next line updates PATH for the Google Cloud SDK.
-source /Users/chris/google-cloud-sdk/path.bash.inc
+export PYENV_ROOT=/usr/local/var/pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
-# The next line enables bash completion for gcloud.
-source /Users/chris/google-cloud-sdk/completion.bash.inc
-
-. $HOME/bin/z/z.sh
+# CERN Stuff
+export WORKON_HOME=$HOME/.virtualenvs
+export MSYS_HOME=/c/msys/1.0
+source /usr/local/bin/virtualenvwrapper.sh
