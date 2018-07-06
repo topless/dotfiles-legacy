@@ -1,0 +1,9 @@
+export WORKON_HOME=$HOME/.virtualenvs
+export MSYS_HOME=/c/msys/1.0
+source /usr/local/bin/virtualenvwrapper.sh
+
+export FLASK_APP=app.py
+export FLASK_DEBUG=1
+
+free-port() { kill "$(lsof -t -i :$1)"; }
+kill-port() { kill -kill "$(lsof -t -i :$1)"; }

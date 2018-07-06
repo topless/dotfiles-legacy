@@ -1,5 +1,3 @@
-alias killp='killall Python -9'
-
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 # export ANDROID_HOME=~/Library/Android/sdk
 # export ANDROID_SDK_ROOT=~/Library/Android/sdk
@@ -8,7 +6,5 @@ alias killp='killall Python -9'
 export PYENV_ROOT=/usr/local/var/pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
-# CERN Stuff
-export WORKON_HOME=$HOME/.virtualenvs
-export MSYS_HOME=/c/msys/1.0
-source /usr/local/bin/virtualenvwrapper.sh
+# Fix for z, to maked it accessible from terminal1
+. `brew --prefix`/etc/profile.d/z.sh
