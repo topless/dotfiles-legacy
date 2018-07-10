@@ -16,6 +16,7 @@ brew install coreutils
 brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
+brew install z
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 # Install Bash 4.
@@ -34,7 +35,6 @@ fi;
 brew install wget --with-iri
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install screen
@@ -54,7 +54,6 @@ brew install git
 brew install git-lfs
 brew install gource
 brew install imagemagick --with-webp
-brew install mercurial
 brew install pv
 brew install speedtest_cli
 brew install tree
@@ -65,7 +64,6 @@ brew install yarn
 brew cleanup
 
 # Install python stuff
-brew install python
 brew install pyenv
 brew tap homebrew/python
 brew install pillow
