@@ -1,13 +1,16 @@
+# Virtualenv Wrapper stuff
 export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
-export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export PROJECT_HOME=$HOME/Work
 source /usr/local/bin/virtualenvwrapper.sh
-workon invenio-venv
 
 export FLASK_APP=app.py
 export FLASK_DEBUG=1
 
+# Use gpip for global dependecies install, pip is restricted to virtual env
+gpip() {
+  PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
+}
+
+# If ports get binded, kill 'em all
 free-port() { kill "$(lsof -t -i :$1)"; }
 kill-port() { kill -kill "$(lsof -t -i :$1)"; }

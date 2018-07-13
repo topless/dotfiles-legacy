@@ -16,7 +16,7 @@ alias w="cd ~/Work"
 alias g="git"
 alias gs="git status"
 # Use in terminal for json ouput: command | prettyjson
-alias prettyjson='python -m json.tool'
+alias prettyjson='python -m json.tool | pygmentize -l javascript'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

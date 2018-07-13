@@ -1,4 +1,3 @@
-eval "$(pyenv init -)"
 
 # Fix for z, to maked it accessible from terminal
 . `brew --prefix`/etc/profile.d/z.sh

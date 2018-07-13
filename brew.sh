@@ -60,10 +60,9 @@ brew install tree
 brew install webkit2png
 brew install yarn
 
-# Remove outdated versions from the cellar.
-brew cleanup
-
 # Install python stuff
-brew install pyenv
 brew tap homebrew/python
 brew install pillow
+
+# Remove outdated versions from the cellar.
+brew cleanup
