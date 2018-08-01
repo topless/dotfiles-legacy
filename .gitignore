@@ -16,6 +16,7 @@ Thumbs.db
 # Random crap
 npm-debug.log
 .idea/
+.vscode/
 ### Node ###
 
 # Logs

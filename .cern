@@ -8,6 +8,10 @@ export FLASK_DEBUG=1
 
 # Use gpip for global dependecies install, pip is restricted to virtual env
 gpip() {
+  PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+
+gpip3() {
   PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
 }
 
