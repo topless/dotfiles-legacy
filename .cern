@@ -2,6 +2,7 @@
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Work
 source /usr/local/bin/virtualenvwrapper.sh
+export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
 
 export FLASK_APP=app.py
 export FLASK_DEBUG=1
@@ -18,3 +19,5 @@ gpip3() {
 # If ports get binded, kill 'em all
 free-port() { kill "$(lsof -t -i :$1)"; }
 kill-port() { kill -kill "$(lsof -t -i :$1)"; }
+
+eval "$(pyenv init -)"
