@@ -14,6 +14,7 @@ brew cask install imagealpha 2> /dev/null
 brew cask install imageoptim 2> /dev/null
 brew cask install inkscape 2> /dev/null
 brew cask install iterm2 2> /dev/null
+brew cask install kap 2> /dev/null
 brew cask install skype 2> /dev/null
 brew cask install slack 2> /dev/null
 brew cask install teamviewer 2> /dev/null

@@ -7,3 +7,6 @@
 # export ANDROID_HOME=~/Library/Android/sdk
 # export ANDROID_SDK_ROOT=~/Library/Android/sdk
 # export PATH=$PATH:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/tools/lib/x86_64
+
+# Alias for hub to take over git commands.
+eval "$(hub alias -s)"

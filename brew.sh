@@ -52,6 +52,7 @@ brew install fd
 brew install ffmpeg
 brew install git
 brew install git-lfs
+brew install hub
 brew install gource
 brew install imagemagick --with-webp
 brew install pv
