@@ -21,3 +21,5 @@ free-port() { kill "$(lsof -t -i :$1)"; }
 kill-port() { kill -kill "$(lsof -t -i :$1)"; }
 
 eval "$(pyenv init -)"
+
+alias github-pr-config="git config --add remote.inveniosoftware.fetch \"+refs/pull/*/head:refs/remotes/inveniosoftware/pr/*\""
